@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mr+De+Haviland&display=swap");
 
 * {
   margin: 0px;
@@ -58,8 +59,7 @@ header {
   text-align: center;
   font-size: 40px;
   font-weight: 800;
-  margin-bottom: 10px;
-  padding-top: 70px;
+  /* margin-bottom: 10px; */
 }
 
 .feature-text-description {
@@ -140,6 +140,22 @@ header {
   margin: 100px auto;
   padding: 80px 0px;
   width: 1000px;
+}
+
+.month-best-container {
+  width: 1000px;
+}
+
+.mon-best-img {
+  display: flex;
+}
+
+.image {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px auto 0px;
+  gap: 40px;
+  min-width: 200px;
 }
 
 .hot-deal {
@@ -232,6 +248,7 @@ header {
   background-size: 1000px;
   text-align: center;
   padding: 100px;
+  margin-bottom: 80px;
 }
 
 .latest-deal-title {
@@ -294,4 +311,56 @@ footer {
   text-align: center;
   font-size: 16px;
   margin-bottom: 20px;
+}
+
+.post-title-1 {
+  text-align: center;
+  font-size: 25px;
+  font-family: "Mr De Haviland", cursive;
+  color: #e55473;
+  margin-bottom: 15px;
+}
+
+.post-title-2 {
+  text-align: center;
+  font-size: 35px;
+}
+
+.post {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1px;
+  margin: 80px auto;
+  gap: 80px;
+}
+.post div {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.1);
+}
+
+.post-img {
+  width: 277px;
+
+  border-radius: 10px;
+}
+
+.post h3 {
+  font-size: 30px;
+  padding: 15px 0 15px 10px;
+}
+.post p {
+  font-size: 18px;
+  padding: 0px 0 15px 10px;
+}
+.post a {
+  font-size: 18px;
+  padding: 0px 0 15px 10px;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+.post a:hover {
+  color: #e55473;
 }
