@@ -196,3 +196,35 @@ header {
 .hot-deal-img {
   width: 80%;
 }
+
+.insta-title {
+  color: #272727;
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.insta-description {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  padding: 20px 0px 30px;
+}
+
+.instagram {
+  width: 1000px;
+  margin: 70px auto;
+}
+
+.insta-gallary {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.gallary-img {
+  width: 200px;
+  border-radius: 10px;
+}
